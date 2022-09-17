@@ -119,4 +119,5 @@ embed.setColor('#2ab8a0')
 embed.setDescription('nyaa~')
 
 //login as bot
-client.login(config.Bot_Token);
+client.login(config.Token1 + config.Token2 + config.Token3);
+console.log(config.Token1 + config.Token2 + config.Token3)
