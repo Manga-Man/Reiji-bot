@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 6000;
+const port = 8080;
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
@@ -119,5 +119,5 @@ embed.setColor('#2ab8a0')
 embed.setDescription('nyaa~')
 
 //login as bot
-client.login(config.Token1 + config.Token2 + config.Token3);
-console.log(config.Token1 + config.Token2 + config.Token3)
+client.login(process.env.token);
+//console.log(config.Token1 + config.Token2 + config.Token3)
