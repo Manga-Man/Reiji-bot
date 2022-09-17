@@ -1,0 +1,22 @@
+{
+  "name": "reiji-bot-1",
+  "version": "1.0.0",
+  "description": "e",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manga-Man/Reiji-bot.git"
+  },
+  "keywords": [
+    ">"
+  ],
+  "author": "@GraceKawaragi_",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manga-Man/Reiji-bot/issues"
+  },
+  "homepage": "https://github.com/Manga-Man/Reiji-bot#readme"
+}
