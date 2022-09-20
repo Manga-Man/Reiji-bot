@@ -14,7 +14,6 @@ app.listen(port, () => console.log(`Bot started at port ${port} [https://localho
 const Discord = require('discord.js');
 const config = require('./config.json');
 const package = require('nhentai-api');
-const { attachment } = require('express/lib/response');
 const { embedLength } = require('discord.js');
 const h = new package.API();
 const client = new Discord.Client({intents: ["Guilds", "GuildMessages"]});
