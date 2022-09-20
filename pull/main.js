@@ -1,5 +1,4 @@
 const express = require('express');
-const req = require('express/lib/request');
 const app = express();
 const port = 8080;
 
