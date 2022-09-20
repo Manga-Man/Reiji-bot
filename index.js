@@ -2,9 +2,10 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Hello World!'));
+console.log('starting...')
+app.get('/', (req, res) => res.send(':sip2:'));
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
+app.listen(port, () => console.log(`App launched at http://localhost:${port}`));
 
 
 const Discord = require('discord.js');
