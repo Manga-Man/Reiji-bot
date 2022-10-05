@@ -56,13 +56,16 @@ const prefix = ">";
             uwuchannel.send({embeds: [embed]}) 
         });
     }
-const commandBody = message.content.slice(prefix.length);
-const args = commandBody.split(''); //split commands into arguments {args}
-const command = args.shift().toLocaleLowerCase();
+    const commandBody = message.content.slice(prefix.length);
+    const args = commandBody.split(' '); //split args
+    const command = args.shift().toString().toLowerCase(); //convert command to lowercase     
+    
+
 
   if(command === "ping") {
     const timeTaken = Date.now() - message.createdTimestamp;
     message.reply(`Pong! This message had a latency of ${timeTaken}ms.`);
+
   } else if(command === "fuck" || command === "rail" || command === "seggs") {
     if(message.mentions.users.first()) {
         const sussyface = new Discord.EmbedBuilder()
