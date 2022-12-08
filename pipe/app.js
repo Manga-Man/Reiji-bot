@@ -79,4 +79,4 @@ bot.on("messageCreate", async message => {
 
 
 //Token needed in config.json
-bot.login(token);
+bot.login(token + 'OULzf3a3saA7OyVI8oH-w');
