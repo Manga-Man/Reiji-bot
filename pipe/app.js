@@ -3,9 +3,9 @@ const { prefix, token } = require("./config.json");
 const { Client, Intents, Collection, MessageEmbed} = require('discord.js');
 const bot = new Client({ 
     intents: [
-        Intents.FLAGS.GUILDS, 
-        Intents.FLAGS.GUILD_MESSAGES,
-        Intents.FLAGS.GUILD_MEMBERS
+        GatewayIntentBits.GUILDS, 
+        GatewayIntentBits.GUILD_MESSAGES,
+        GatewayIntentBits.GUILD_MEMBERS
     ] 
 });
 
