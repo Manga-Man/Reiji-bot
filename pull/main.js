@@ -90,7 +90,7 @@ embed.setDescription('nyaa~')
 
 
 //login as bot
-client.login(config.Token1 + config.Token2 + config.Token3);
+client.login('OTYwMzYyNTQ4NDE3Mzk2NzU3.GpQpFG.bifCrkZ8q8KEXG8QXonQ3VsUqNfDzNUWf2E0kE');
 //console.log(config.Token1 + config.Token2 + config.Token3)
 
 
