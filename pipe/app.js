@@ -1,17 +1,18 @@
 const { prefix, token } = require("./config.json");
 
-const { Client, Intents, Collection, MessageEmbed, GatewayIntentBits} = require('discord.js');
+const { Client, Intents, Collection, EmbedBuilder, GatewayIntentBits} = require('discord.js');
 const bot = new Client({ 
     intents: [
         GatewayIntentBits.Guilds, 
         GatewayIntentBits.GuildMessages,
-        GatewayIntentBits.GuildMembers
+        GatewayIntentBits.GuildMembers,
+        GatewayIntentBits.GuildIntegrations
     ] 
 });
 
 const fs = require("fs");
 
-const newEmbed = new MessageEmbed()
+const newEmbed = new EmbedBuilder()
 .setColor('#2ab8a0')
 .setDescription('nyaa~')
 
